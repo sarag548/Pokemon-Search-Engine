@@ -61,11 +61,5 @@ const displayPokemon = (data) => {
 
 searchButton.addEventListener("click", fetchData);
 
-document.addEventListener("keydown", (event) => {
-  if(event.key === "Enter"){
-    fetchData();
-  }
-})
-
 randomButton.addEventListener("click", fetchRandom);
 
