@@ -14,7 +14,6 @@ const specialAttack = document.getElementById("special-attack");
 const specialDefense = document.getElementById("special-defense");
 const speed = document.getElementById("speed");
 const statArray = [hp, attack, defense, specialAttack, specialDefense, speed];
-const generalUrl = "https://pokeapi-proxy.freecodecamp.rocks/api/pokemon";
 
 const fetchData = async () => {
   try {
